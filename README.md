@@ -26,7 +26,7 @@ Choose any problem that you want to solve, fork it and name the branch after it.
 I will review all pull requests and give feedback until the code can be integrated
 into master.
 
-## Security
+## Security - Currently trying to fix this so it can be added to master
 Currently the app is not setup for concurrent users as the credentials are
 stored in local memory. We must store the youtube api token inside of a session. Passport.js looks like a good library to assist
 with this. http://www.passportjs.org/ I am still researching this and will implement this ASAP
